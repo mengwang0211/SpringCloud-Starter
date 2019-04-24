@@ -1,0 +1,21 @@
+server:
+  port: 6754
+
+spring:
+  application:
+    name: provider
+  cloud:
+    nacos:
+      config:
+        server-addr: ${nacos.server}
+      discovery:
+        server-addr: ${nacos.server}
+  profiles:
+    active: local
+
+ribbon:
+    ReadTimeout: 60000
+    ConnectTimeout: 60000
+
+nacos:
+  server: 127.0.0.1:8848
