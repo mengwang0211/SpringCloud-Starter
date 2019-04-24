@@ -96,9 +96,7 @@ docker-compose
     2.4 nacos web页
     http:your-ip:8848/nacos
     默认账号/默认密码: nacos/nacos
-    
-    **【ATTENTION PLEASE】: 禁止将本地服务注册到测试或者生产上，违者重罚。**
-
+   
 
 #### 项目结构
 
